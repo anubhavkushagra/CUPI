@@ -1,0 +1,22 @@
+nohup: ignoring input
+
+[!] Benchmark started. Running for 3600 seconds...
+
+[1;36m================== FINAL BENCHMARK REPORT ==================[0m
+METRIC                        VALUE
+------------------------------------------------------------
+Parallel Threads              8
+Batch Size (Keys/RPC)         100
+Test Duration                 3600s
+------------------------------------------------------------
+CREATE (PUT) Ops              236270826
+READ (GET) Ops                236270826
+DELETE Ops                    236270826
+------------------------------------------------------------
+TOTAL OPERATIONS              708812478
+FAILED RPCs                   [1;31m6023391[0m
+------------------------------------------------------------
+ THROUGHPUT:   [1;32m196892 ops/sec[0m
+ AVG LATENCY:  1799837 us per batch
+============================================================
+
